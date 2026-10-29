@@ -1,65 +1,51 @@
-# Advanced Programming Concepts (APC) Using Python
+# Advanced Programming Concepts (APC) - Python
 
-## About the Repository
-This repository contains Python programs and practical implementations of various **Advanced Programming Concepts (APC)**. It is created for academic learning, practical assignments, and understanding fundamental Python concepts through simple examples.
+This repository contains practical implementations and lab exercises for the **Advanced Programming Concepts (APC)** course. It covers Python topics ranging from basic syntax and control flow to object-oriented programming, data manipulation, and simple GUI applications.
 
 ## Topics Covered
-- **Inheritance and Polymorphism** – Implementation of OOP concepts in Python.
-- **NumPy and Pandas** – Array operations and data manipulation.
-- **Matplotlib** – Implementation of different graphs and charts.
-- **Tkinter** – Development of basic Graphical User Interface (GUI) applications.
 
-## Technologies Used
-- **Programming Language:** Python
-- **Libraries:** NumPy, Pandas, Matplotlib
-- **GUI Framework:** Tkinter
-- **Tools:** Visual Studio Code, Git, GitHub
+- **Basics & Control Flow**: Conditionals (`if`), loops (`for`, `while`), and control statements (`break`, `continue`, `pass`).
+- **Data Structures**: Lists, Tuples, Sets, Dictionaries, and Strings.
+- **Functions & Modules**: User-defined functions, Lambda expressions, and custom Packages.
+- **Object-Oriented Programming (OOP)**: Classes, Objects, Constructors, Destructors, Inheritance, and Polymorphism.
+- **Text & Patterns**: String methods, Text Processing, and Regular Expressions.
+- **Data Analysis**: Array operations and data manipulation using NumPy and Pandas.
+- **Data Visualization**: Plotting charts and graphs using Matplotlib.
+- **GUI Development**: Desktop interface practicals using Tkinter.
 
-## Installation and Execution
+## Prerequisites
 
-1. Install Python on your system.
-2. Clone this repository:
+- Python 3.x installed on your machine.
+- Optional external libraries for specific practicals:
 
+```bash
+pip install numpy pandas matplotlib
+```
+
+*(Tkinter is bundled with standard Python installations on Windows).*
+
+## How to Run
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/sumyaopratar123/Python.git
+   git clone https://github.com/hameedmulani29/APC.git
    ```
 
-3. Navigate to the project folder:
-
+2. Go to the project folder:
    ```bash
-   cd Python
+   cd APC
    ```
 
-4. Install the required libraries:
-
-   ```bash
-   python -m pip install numpy pandas matplotlib
-   ```
-
-5. Run any Python program:
-
+3. Run any Python script:
    ```bash
    python filename.py
    ```
-
-   Replace `filename.py` with the name of the program you want to execute.
-
-## Learning Objectives
-- Understand object-oriented programming concepts.
-- Perform array operations using NumPy and Pandas.
-- Visualize data using Matplotlib.
-- Develop simple GUI applications using Tkinter.
-- Gain practical experience in Python programming.
+   *(Or navigate into the specific topic folder and run the script).*
 
 ## Faculty Guide
-**Faculty Name:** Prof. Ajinkya Yadav
 
-## Academic Purpose
-This repository is maintained for the academic practical work of **Advanced Programming Concepts (APC) using Python**.
+Dr. Ajinkya Yadav
 
 ## Author
-**Sumit Ganesh Ade**
 
----
-
-*Developed for learning, practice, and academic reference.*
+Hameed Mulani
